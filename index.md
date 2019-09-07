@@ -3,7 +3,7 @@ layout: default
 ---
 
 <video width="100%" autoplay controls muted loop>
-  <source src="assets/vid/web.webm" type="video/mp4">
+  <source src="assets/vid/web.webm?v=1" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -150,6 +150,6 @@ bee wings) into the "Drop images" box. Assuming your installation
 was successful, the top 5 results will then
 be displayed below after a short delay.
 
-![web-usage](assets/img/web-usage.png)
+![web-usage](assets/img/web-usage.png?v=1)
 
 
