@@ -12,6 +12,13 @@ DeepABIS is a convolutional neural network trained to classify
 bee species from images of bee wings.
 
 # Installation
+
+The system can be tested by installing the web or, 
+alternatively, the mobile version. For the web version,
+two services must be installed, the inference service and the 
+web server. For a quick install, we provide ready to use 
+pre-built Docker images for the web version.
+
 ## Using Docker
 
 ### Inference service ([deepabis-inference](https://github.com/deepabis/deepabis-inference))
@@ -126,6 +133,7 @@ both come with nginx to serve the site.
 0. Requirements:
 <ul>
     <li> Android Studio</li>
+    <li> Android 8 or newer (for deployment on smartphones)</li>
 </ul>
 
 1. Clone the mobile repository:
