@@ -22,6 +22,8 @@ we provide ready to use pre-built Docker images.
 ## Web version
 ### Using Docker
 
+This is the recommended approach for a quick start.
+
 Requirements: 
 
 <ul>
