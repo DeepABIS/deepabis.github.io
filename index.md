@@ -16,10 +16,16 @@ bee species from images of bee wings.
 The system can be tested by installing the web or, 
 alternatively, the mobile version. For the web version,
 two services must be installed, the inference service and the 
-web server. For a quick install, we provide ready to use 
-pre-built Docker images for the web version.
+web server. For a quick installation of the web version, 
+we provide ready to use pre-built Docker images.
 
 ## Using Docker
+
+Requirements: 
+
+<ul>
+    <li>Docker >= 19</li>
+</ul>
 
 ### Inference service ([deepabis-inference](https://github.com/deepabis/deepabis-inference))
 The web version sends its classification requests to this service,
