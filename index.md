@@ -9,7 +9,7 @@ layout: default
 
 # Description
 DeepABIS is a convolutional neural network trained to classify
-bee species from images of wings.
+bee species from images of bee wings.
 
 # Installation
 ## Using Docker
