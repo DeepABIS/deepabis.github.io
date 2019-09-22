@@ -166,4 +166,16 @@ be displayed below after a short delay.
 
 ![web-usage](assets/img/web-usage.png?v=1)
 
+## Mobile version
 
+There are two views, the "Identify" and the "Species" view.
+In the "Identify" view, images can be classified.
+They can either be loaded 
+by selecting an image from the device's storage 
+(by tapping "Choose Image") or 
+by directly taking a photo (tap the "Take Photo" button).
+
+In the "Species" view, all available species of the classifier
+are listed.
+
+![mobile-usage](assets/img/mobile-usage.png?v=1)
