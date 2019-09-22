@@ -19,7 +19,8 @@ two services must be installed, the inference service and the
 web server. For a quick installation of the web version, 
 we provide ready to use pre-built Docker images.
 
-## Using Docker
+## Web version
+### Using Docker
 
 Requirements: 
 
@@ -27,7 +28,10 @@ Requirements:
     <li>Docker >= 19</li>
 </ul>
 
-### Inference service ([deepabis-inference](https://github.com/deepabis/deepabis-inference))
+#### Inference service
+
+Main repository: [deepabis-inference](https://github.com/deepabis/deepabis-inference)
+
 The web version sends its classification requests to this service,
 which loads up the network model, performs inferences and sends
 the results back to the PHP client. So we need to install this 
@@ -53,10 +57,12 @@ docker run -p 9042:9042 --net deepabis-network --network-alias inference deepabi
 
 Now, our second cloud container (or native installation) will be able to reach the inference service.
 
-### Web version ([deepabis-cloud](https://github.com/deepabis/deepabis-cloud))
+#### Web server
+
+Main repository: [deepabis-cloud](https://github.com/deepabis/deepabis-cloud)
 
 1. For a quick start, the following command pulls the 
-web version as a Docker image:
+web server as a Docker image:
 ```bash
 docker pull deepabis/deepabis-cloud
 ```
@@ -69,8 +75,10 @@ docker run -p 8000:8000 --net deepabis-network -e "INFERENCE_HOST=inference" dee
 This again creates a container on our custom network. 
 The website can then be viewed on `localhost:8000`.
 
-## Manually
-### Inference service ([deepabis-inference](https://github.com/deepabis/deepabis-inference))
+### Manually
+#### Inference service
+
+Main repository: [deepabis-inference](https://github.com/deepabis/deepabis-inference)
 
 0. Requirements:
 <ul>
@@ -94,7 +102,9 @@ python server.py
 
 4. The inference service now runs on port 9042.
 
-### Web version ([deepabis-cloud](https://github.com/deepabis/deepabis-cloud))
+#### Web server
+
+Main repository: [deepabis-cloud](https://github.com/deepabis/deepabis-cloud)
 
 0. Requirements:
 <ul>
@@ -134,7 +144,9 @@ both come with nginx to serve the site.
 
 8. Done!
 
-## Installing the mobile version ([deepabis-mobile](https://github.com/deepabis/deepabis-mobile))
+## Mobile version
+
+Main repository: [deepabis-mobile](https://github.com/deepabis/deepabis-mobile)
 
 0. Requirements:
 <ul>
@@ -157,7 +169,7 @@ using the AVD manager or, alternatively, plug in a real Android device.
 
 # Usage
 
-## Web version
+## Web server
 
 Drop any image (preferably depicting microscopic captures of 
 bee wings) into the "Drop images" box. Assuming your installation

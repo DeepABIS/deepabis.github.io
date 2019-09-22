@@ -35,6 +35,10 @@
     </header>
 
     <main id="content" class="main-content" role="main">
+      <div class="toc">
+        <b>Table of contents</b>
+        {% include toc.html html=content %}
+      </div>
       {{ content }}
 
       <footer class="site-footer">
