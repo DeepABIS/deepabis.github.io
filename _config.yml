@@ -9,3 +9,5 @@ github:
   owner_name: Flynamic
   owner_url: https://github.com/Flynamic
   is_project_page: true
+paper:
+  paper_url: https://doi.org/10.1016/j.ecoinf.2019.101017
